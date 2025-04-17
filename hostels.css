@@ -1,0 +1,73 @@
+.card-holder {
+  /* position: relative; */
+  display: flex !important;
+  padding: 20px !important;
+
+  max-width: 100% !important;
+  /* background-color: blue; */
+  flex-wrap: wrap !important;
+  justify-content: space-around !important;
+}
+
+.card-inner {
+  margin-bottom: 20px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.t-shirt-heading {
+  text-align: center !important;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  background-color: #155576;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  overflow: hidden;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+  margin-top: 5px !important;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(101, 175, 218);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+
+.card button:hover {
+  background-color: rgb(44, 93, 121);
+}
+
+.cardImg {
+  transition: 0.5s ease;
+  width:auto; 
+  height: 300px;
+  width: 300px;
+  overflow: hidden !important;
+}
+
+.headingTees {
+  background-color: white !important;
+}
+.address {
+  padding-left: 20px;
+  text-align: start;
+  margin-bottom: 5px !important;
+}

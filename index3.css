@@ -1,0 +1,18 @@
+.section3 {
+    background-color: #eeeeee;
+  }
+  .aboutTextContainer {
+    color: #ffffff !important;
+    background-color: #155576;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .about-heading2 {
+    text-align: center !important;
+    font-weight: bold !important;
+    line-height: 35px;
+    font-size: 25px !important;
+    color: #ffffff;
+  }

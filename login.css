@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  
+  /* background-color: aqua; */
+}
+.section1 {
+  /* background-image: url("assets/backdrop1.jpg"); */
+  background-color: #1478aa;
+  height: 100% !important;
+  width: 100%;
+}
+.card {
+  border-radius: 10px !important;
+  box-shadow: 5px 5px 5px 1px #00000040;
+}
+
+input:focus {
+  border: none !important;
+}
+.signUpInput {
+  width: 100%;
+  margin-right: 5px;
+}
+.outterContainer {
+  width: 100%;
+}
+
+.inputContainerSection {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .inputContainerSection {
+    display: block;
+  }
+}

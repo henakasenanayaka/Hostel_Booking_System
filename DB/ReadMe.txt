@@ -1,0 +1,1 @@
+create database and name it hostel_booking. After import the attached sql to stablish database.
